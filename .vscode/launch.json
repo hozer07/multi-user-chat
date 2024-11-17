@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Chat Server",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "chat_server.py",
+            "console": "integratedTerminal",
+            "args": "3131"
+        },
+        {
+            "name": "Python Debugger: Chat Client Ali",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "chat_client.py",
+            "console": "integratedTerminal",
+            "args": "ali localhost 3131"
+        },
+        {
+            "name": "Python Debugger: Chat Client Veli",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "chat_client.py",
+            "console": "integratedTerminal",
+            "args": "veli localhost 3131"
+        },
+        {
+            "name": "Python Debugger: Chat Client Hasan",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "chat_client.py",
+            "console": "integratedTerminal",
+            "args": "hasan localhost 3131"
+        },
+    ]
+}
