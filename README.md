@@ -5,4 +5,4 @@ Run server process with the command:
 python chat_server.py "port"
 
 Run each client process with the command:
-python chat_client.py "nick" "ip" "port"
+python chat_client.py "nick" "server ip" "port"
